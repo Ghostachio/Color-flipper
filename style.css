@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.page-wrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#switch{
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  border-style: none;
+  background-color: #005B41;
+  color: #E5E5CB;
+  font-weight: bold;
+  font-size: medium;
+  transition: 0.3s;
+}
+
+#switch:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
